@@ -92,7 +92,7 @@ interface UrlFilesConfig {
     ROLES_JSON: string;
 }
 
-interface AppConfig {
+export interface AppConfig {
     COMPANY: CompanyConfig;
     SERVER: ServerConfig;
     LOG: LogConfig;

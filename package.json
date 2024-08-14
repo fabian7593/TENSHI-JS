@@ -1,9 +1,10 @@
 {
   "name": "tenshijs",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Tenshi is a NodeJS backend framework, this works with TypeScript  and ExpressJS.  Tenshi give us the possibillity to added easly the jwt security code, api key, role validation, regex, validation, required fields validation, logical deletions and others.  Tenshi use TypeORM code first to connect the persistance.",
-  "main": "build/src/index.js",
-  "types": "build/src/index.d.ts",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts",
     "compile": "tsc",
@@ -19,7 +20,18 @@
     "express",
     "backend"
   ],
-  "author": "ArcaneCoder7",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Arcane Coder 7",
+    "email": "fabian7593@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabian7593/TENSHI-JS"
+  },
+  "bugs": {
+    "url": "https://github.com/fabian7593/TENSHI-JS/issues"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "@types/cors": "^2.8.17",

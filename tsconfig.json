@@ -18,8 +18,26 @@
     "baseUrl": "./",
     "paths": {
       "@TenshiJS/*": ["tenshi/*"]
-    }
+    },
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "strictFunctionTypes": false,
+    "stripInternal": true,
+    "useUnknownInCatchVariables": false
   },
-  "include": ["src/**/*"], 
-  "exclude": ["node_modules", "build"] 
+  "include": [
+    "src",
+    "*.ts"
+  ],
+  "exclude": [
+      "build",
+      "node_modules"
+  ]
 }
